@@ -1,4 +1,27 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Prima - Freelancer Sidoarjo'
+baseurl = "/"
+title = "Prima's Blog"
 theme = "ghostwriter"
+
+[author]
+    name = "Prima"
+    profile = " ini profile prima"
+
+[Params]
+    mainSections = ["post"]
+    intro = false
+    headline = "My headline"
+    description = "My description"
+    github = "https://github.com/XXX"
+    twitter = "https://twitter.com/XXX"
+    email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    rss = true
+    readingTime = true
+    readingTimeText = "Estimated reading time: "
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
+[taxonomies]
+    tag = "tags"
