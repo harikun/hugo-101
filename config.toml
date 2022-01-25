@@ -8,7 +8,7 @@ theme = "ghostwriter"
 
 [Params]
     mainSections = ["post"]
-    intro = false
+    intro = true
     headline = "My headline"
     description = "My description"
     github = "https://github.com/XXX"
